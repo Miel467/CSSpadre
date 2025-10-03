@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>2</title>
+    <style>
+        body {
+            background: #aecdee;
+            background: radial-gradient(circle, rgba(174, 205, 238, 0.99) 7%, rgba(120, 143, 176, 0.85) 63%);
+        }
+
+        /*main*/
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: azure;
+            gap: 20px;
+            padding: auto;
+        }
+
+        .container section {
+            width: 450px;
+            display: flex;
+            align-items: center;
+            gap: 15px;/*gap,separa los hermanos de un container flex(debe estar en display flex)*/
+        }
+
+        .item-img {
+            width: 40px;
+            height: 40px;
+
+
+        }
+    </style>
 </head>
+
 <body>
-    
+    <main class="container">
+
+        <section>
+
+            <img src="./imag/camion-de-reparto.png" alt="camion"  class="item-img">
+
+            <p>ENVIOS A TODO EL PAIS Y RETIRO POR SUCURSALES ANDREANI</p>
+
+        </section>
+
+        <section>
+
+            <img src="./imag/tarjetas-de-credito.png" alt="tarjeta" class="item-img">
+
+            <p>PAGA CON 2 TARJETAS DE CREDITO O DEBITO</p>
+
+        </section>
+
+        <section>
+
+            <img src="./imag/mapa.png" alt="mapa" class="item-img">
+
+            <p>RETIRA GRATIS EN 2 HORAS EN NUESTROS FLAGSHIP STORES</p>
+
+        </section>
+    </main>
 </body>
+
 </html>
