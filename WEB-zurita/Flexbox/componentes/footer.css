@@ -1,0 +1,90 @@
+/*container*/nav{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 25px;
+}
+section{
+    padding: 20px;
+}
+input,.email{
+    padding: 15px;
+}
+
+.btn0{
+    padding:15px ;
+    margin: 20px;
+    margin-left: 0px;
+    color: beige;
+    background-color: red;
+    font-weight: 700;
+    border: 1px;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+}
+.redes img{
+    width: 30px;
+}
+.opciones{  
+    margin-top: 10px;
+    padding: 0;
+    margin: 0;
+
+}
+p{
+    margin: 5px;
+}
+.claro{
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+     font-size: 13px;
+}
+.negro{
+    font-weight: 700;
+    color: black;
+     font-size: 13px;
+}
+
+.titulo{
+    color: black;
+    font-weight: 800;
+}
+
+ul{
+    list-style: none; 
+    padding: 0; 
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+     font-size: 15px;
+}
+
+a{
+    text-decoration: none; 
+}    
+
+
+
+
+.btn{
+ display: flex;
+ justify-content: center;
+}
+.text,.ab{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.477);;
+}
+.img-finales{
+    margin-top: 35px;
+    display: flex;
+    gap: 10px;
+}
+.sello,.codigo{
+    width: 50px;
+   
+}
+.codigo{
+     height: 55px;
+}

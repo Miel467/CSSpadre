@@ -1,0 +1,119 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    width: 100%;
+}
+
+p {
+    font-weight: 700;
+    margin: 0%;
+    padding: 1%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.ayuda {
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 1%;
+    font-size: 15px;
+    padding: 0px 40px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:  25px; 
+}
+
+img {
+    font-family: AdihausDIN, Helvetica, Arial, Helvetica, sans-serif;
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+    font-size: 16px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.negro {
+    color: black;
+    font-weight: 700;
+}
+
+.claro {
+    color: rgba(0, 0, 0, 0.477);
+}
+
+.rojo {
+    color: rgb(209, 19, 19);
+    font-weight: 700;
+}
+
+.form {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.buscar {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color:#E9ECEF;
+}
+
+input {
+    padding: 7px;
+    border: none;
+    background-color:#E9ECEF;
+}
+
+.opciones {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.opciones span {
+    padding: 5px;
+}
+.ancho-minimo{
+    min-width: 400px;
+}
+ul{
+    padding: 0%;
+}
