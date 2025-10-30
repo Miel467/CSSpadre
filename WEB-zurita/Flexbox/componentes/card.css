@@ -1,0 +1,64 @@
+
+.card{
+    border: 1px solid black;
+    width: 300px;
+}
+.campera{
+    width: 250px;
+}
+.info{
+    margin-left: 10px;
+}
+.tipo{
+    font-size: 12px;
+}
+.descrip{
+    font-size: 15px;
+}
+.valor{
+    color: rgb(190, 10, 10);
+    font-weight: 700;
+}
+.ant-valor{
+    color: rgba(69, 68, 68, 0.758);
+    font-weight: 300;
+    text-decoration:line-through;
+}
+.oferta{
+    font-size: 14px;
+    font-weight: 900;
+}
+.confi{
+    width: 90%;
+   margin-left: 28px; ;
+}
+.btn{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bolso{
+    width: 25px;
+    height: 25px;
+}
