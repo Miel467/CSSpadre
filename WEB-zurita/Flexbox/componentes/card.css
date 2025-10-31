@@ -1,41 +1,114 @@
+section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
-.card{
+.card {
     border: 1px solid black;
-    width: 300px;
+    width: 225px;
+    box-shadow: 5px 0px 30px -3px rgba(0,0,0,0.1);
 }
-.campera{
-    width: 250px;
+
+.descuento {
+    display: flex;
+    justify-content: end;
 }
-.info{
+
+.ahorro {
+    margin-top: 6px;
+    margin-right: 4px;
+    padding: 1px;
+    width: 15%;
+    height: 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: azure;
+    font-weight: 600;
+    border: 0;
+    background-color: rgb(211, 4, 4);
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
+.Imar {
+    width: 100%;
+}
+
+.talles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 17px;
+    background-color: rgba(248, 245, 241, 0.945);
+
+}
+
+.talles a {
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.info {
     margin-left: 10px;
 }
-.tipo{
+
+.tipo {
     font-size: 12px;
+    margin-top: 5px;
+
 }
-.descrip{
+
+.descrip {
     font-size: 15px;
+    font-family: "Rubik", sans-serif;
 }
-.valor{
+
+.valor {
     color: rgb(190, 10, 10);
     font-weight: 700;
+    font-family: "Rubik", sans-serif;
 }
-.ant-valor{
-    color: rgba(69, 68, 68, 0.758);
-    font-weight: 300;
-    text-decoration:line-through;
+
+.ant-valor {
+    color: rgba(69, 68, 68, 0.438);
+    font-weight: 500;
+    text-decoration: line-through;
+    font-family: "Rubik", sans-serif;
 }
-.oferta{
-    font-size: 14px;
+
+.oferta {
+    color: rgba(56, 55, 55, 0.651);
+    font-size: 12px;
     font-weight: 900;
+    font-family: "Rubik", sans-serif;
 }
-.confi{
+
+.confi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.boton {
     width: 90%;
-   margin-left: 28px; ;
-}
-.btn{
-    width: 90%;
 }
 
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    margin-bottom: 7px;
+    color: azure;
+    background-color: black;
+    border-radius: 5px;
+}
 
 
 
@@ -58,7 +131,8 @@
 
 
 
-.bolso{
+
+.bolso {
     width: 25px;
     height: 25px;
 }
