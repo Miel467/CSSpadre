@@ -1,0 +1,92 @@
+body{
+    text-align: center;/*lo puse la alinear el todo el contenido en el centro*/
+    background-color:rgb(216, 209, 209);/*con esto puse color al fondo*/
+}
+header{
+     border-bottom:1px solid rgb(159, 154, 154);/*lo use para hacer un borde en la parte del top y bottom,y de paso colocarle color*/
+     width: 100%;/*lo use para que el contenido usara el 100% del espacio*/
+     margin-bottom: 15px;/*lo use para darle margen a la parte del bottom */
+}
+img{
+   border-radius: 100%; /*redondeo la imagen*/
+}
+h1{
+    font-weight:600;/*lo puse para medir el grosor de la fuente*/
+    font-family: "Libre Baskerville", serif;/*Tipo de letra*/
+}
+p{
+    text-align: center;/*lo uso para alinear el texto,en el centro*/
+    font-family: "Libre Baskerville", serif;
+}
+
+main{
+    font-weight: 100;
+    border: 1px solid rgb(159, 154, 154);
+    padding: 15px;/*lo uso para medir la distancia del elemento y el borde*/
+    width: 450px;
+    margin:  auto;
+    box-shadow:2px 5px 36px 10px rgb(192, 175, 175);/*para darle sombra al contenido*/
+}
+.Descripcion{
+    text-align: center;
+    border: 1px solid rgb(159, 154, 154);
+}
+.texto-info{
+    text-align: center;
+    font-size:medium;/*lo coloco para medir el tamaño de la letra*/
+    word-spacing: 2px;/*lo utilizo para controlar el espacio en horizontal de las palabras en el texto*/
+    padding: 25px;
+}
+h2{
+    font-family: "DM Serif Display", serif;/*tipo de letra*/
+
+}
+.texto{
+       text-align: center;
+}
+h3{
+    font-family: "DM Serif Display", serif; 
+}
+.fond{
+    margin: 20px;/*margen*/
+    background-color: rgb(192, 175, 175) ;/*color de fondo*/
+    padding: 5px;
+    border:2px solid rgb(194, 180, 180);/*para dar borde*/
+}
+.sub{
+    text-decoration: underline;/*en mi caso,lo utilize para subrayar el texto*/
+}
+.web,.empresa{
+  color: rgba(21, 21, 90, 0.757);/*con esto le coloco color a las letras(texto)*/
+}
+fieldset{
+    margin: 20px;
+    border:1px solid rgb(0, 0, 0)
+}
+textarea,input[type="text"],input[type="email"]{ /*una etiqueta,y dos clases diferentes,separadas por un coma,es para que las 3 tengan la misma propiedad*/
+    width: 100%;
+
+}
+.opinion{
+    padding: 2px;
+}
+.check{
+    padding: 10px;
+}
+.boton{
+    padding: 2%;
+    border-top:2px dashed rgb(159, 154, 154);/*borde del encabezado en lineas cortadas*/
+}
+.btn {
+    border-radius: 10%;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px;;
+}
+#btn-contacto{
+    
+    background-color:rgb(179, 163, 163);/*color de fondo*/
+}
+#btn-portafolio{
+    background-color: rgb(159, 154, 154);/*color del fondo*/
+}

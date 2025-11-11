@@ -1,0 +1,131 @@
+/*container*/
+nav {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 39px;
+    font-family: "Roboto", sans-serif;
+}
+.ancho,.btn{
+    width: 200px;
+}
+
+h4{
+    font-size: 0.7em;
+}
+input,
+.email {
+    padding: 15px;
+}
+
+.btn0 {
+    padding: 15px;
+    margin: 20px;
+    margin-left: 0px;
+    color: beige;
+    background-color: red;
+    font-weight: 700;
+    border: 1px;
+}
+
+.redes {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes img {
+    width: 30px;
+}
+
+.opciones {
+    margin-top: 15px;
+    line-height: 15px;
+
+}
+
+p {
+    margin: 5px;
+}
+
+.claro {
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.negro {
+    font-weight: 700;
+    color: black;
+    font-size: 13px;
+}
+.antesec{
+    width: 135px;
+}
+.titulo {
+    color: black;
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 0.7em;
+    line-height: 2em;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.btn {
+    display: flex;
+    justify-content: center; 
+    justify-content: flex-start;
+   
+}
+.boton{
+    background-color: transparent;
+    font-size: 0.5em;
+     border-radius: 14px;
+     width: 125px;
+     padding: 6px;
+     color: rgba(57, 57, 57, 0.535);
+     border: 1px solid #f0f0f0;
+}
+.text{
+    margin: 0;
+    margin-block-end: 15px;
+}
+.text,.ab {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.477);
+    ;
+}
+.sec-fin{
+    margin: 0;
+    width: 120px;
+}
+
+.img-finales {
+    margin-top: 35px;
+    display: flex;
+    gap: 10px;
+}
+
+.sello,
+.codigo {
+    width: 50px;
+
+}
+
+.codigo {
+    height: 55px;
+}
