@@ -1,7 +1,4 @@
 
-body{
-    background-color: #334E75; 
-}
 
 /*HEADER*/
 
@@ -9,50 +6,44 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #334E75;
 }
 
 .logo img {
-    width: 13em;
-    height: 55px;
+    width: 15em;
+    margin-left:20px ;
     display: flex;
-   
 }
 
-nav {
+nav{
     display: flex;
-    gap: 40px;
+    gap: 30px;
     align-items: center;
     margin-right: 25px;
 }
-
-ul {
+ul{
     display: flex;
 
     padding: 0;
     list-style: none;
     gap: 35px;
 }
-
-ul a {
+ul a{
     text-decoration: none;
-    font-family: "Goldman", sans-serif;
+    font-family:  "Roboto", sans-serif;
     color: black;
-    font-weight: 700;
+    font-weight: 500;
 }
-
-.boton {
+.boton{
     display: flex;
     align-items: center;
     margin-right: 20px;
-
-
+ 
+   
 }
-
-.boton button {
+.boton button{
     width: 18em;
     height: 35px;
-    font-family: "Roboto", sans-serif;
+    font-family:  "Roboto", sans-serif;
 }
 
 
@@ -60,97 +51,52 @@ ul a {
 
 /*MAIN*/
 
-main {
+main{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
-.fondo {
-    background-color: beige;
+.fondo{
+   background-color: beige;
 }
-
-.conMovimiento {
+.conMovimiento{
     background-image: url(./Flexbox/componentes/access/images.jpg);
     width: 100%;
     background-size: 800px;
     color: antiquewhite;
-
-
+   
+    
 }
-
-.primer-section {
+.primer-section{
 
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 30em;
+     height: 30em;
 }
-
-.desarrollo {
+.desarrollo{
     padding: 20px;
-    margin: 25px;
 }
-
-.espacios {
-    margin: 35px;
-    padding: 30px;
-    
-    
-}
-.espacios-btn{
+.espacios{
+    padding: 20px;
     display: flex;
-    width: 150px;
-    background: antiquewhite;
-    padding: 11px;
-    justify-content: center;
-    height: 10px;
-    text-decoration: none;
-    border-radius: 5px;
+    align-items: center;
 }
-.espacios button{
-   font-family: "Caveat Brush", cursive; 
-}
-
-.cartas {
+.cartas{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+.contedor{
 
-.clase {
-    margin: 25px;
-    padding: 25px;
-    width: 550px;
 }
-
-.clase-titulo {
-    margin: 15px;
+.titulo{
     display: flex;
     justify-content: center;
 }
-
-.clase-img {
+.deMas{
     display: flex;
-    justify-content: center;
-}
-
-.contedor {
-    margin: 45px;
-    width: 800px;
-}
-
-.titulo {
-    display: flex;
-    justify-content: center;
-}
-
-.deMas {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 70px;
 }
 
 
@@ -158,66 +104,48 @@ main {
 /*----------------------------------------------------------------------------*/
 
 /*FOOTER*/
-footer {
+footer{
     padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    background-color: #334E75;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
 }
-
-footer p {
-font-family: "Goldman", sans-serif;
-font-size: 13px;
-font-weight: 500;
+.telefonos{
+   
 
 }
-
-.red {
+.red{
     display: flex;
     gap: 10px;
 }
-
-.red img {
+.red img{
     width: 30px;
     height: 30px;
 
 }
-
-
-.frase {
-    font-family: "Rubik Mono One", monospace;
-    font-size: 18px;
-    font-weight: 700;
+.frase{
 
 }
-
-.propuestas {
-    font-family: "Goldman", sans-serif;
-}
-
-.propuestas h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
+.propuestas{
 
 }
-.botones {
+.botones{
     display: flex;
     justify-content: center;
     gap: 8px;
-
+}
+.botones h2{
+    display: flex;
+    justify-content: center;
 }
 
 
-.botones button{
 
-    border-radius: 10px;
-    background-color: #BCCCE3;
-    width: 100px;
 
-}
-.botones a {
-    text-decoration: none;
-   font-family: "Caveat Brush", cursive;
-}
+
+
+
+
+
+
+
