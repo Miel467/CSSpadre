@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choi Hyun-wook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"> <!--Los link de arriba son los tipos de letras que le coloque desde google-->
+    <link rel="stylesheet" href="perfil.css"><!--lo use vincular el css con el html-->
+
+</head>
+
+<body><!--el cuerpo de la pagina-->
+    <header><!--cabeza del perfil,como una introduccion-->
+        <div><!--El div lo coloque para separar la imagen de lo que sigue-->
+            <img src="./Basico/img/ChoiHyunWook_GOLDMEDALIST-2.jpg" alt="ell" width="230px"><!--Imagen del usuario del perfil,en este caso-->
+        </div>
+        <div>
+            <h1>Choi Hyun-wook</h1><!--h1,lo use para poner el nombre del usuario como titulo-->
+            <p>Actor surcoreano</p><!--p,comente la dedicacion del usuario-->
+        </div>
+    </header>
+    <main><!--contenido del perfil-->
+        <section class="Descripcion"><!--con el section separe 2 contenidos diferentes-->
+            <h2>Descripcion </h2><!--subtitulo,y abajo puse un poco de informacion del usuario-->
+            <p class="texto-info">Actor con talento tanto visual como actoral, emana una presencia sorprendente en cada proyecto en el que
+                aparece. Solo un año después de su debut en un drama televisivo,ganó el premio al Mejor Actor Nuevo,
+                atrayendo la atención como una estrella en ascenso.
+            </p>
+
+            <h3>Informacion Profecional</h3><!--lo coloque como titulo pero sin parecido al h1-->
+            <div class="fond"><!--la clase,la utilize para clasificar la etiqueta y que no afecte a lo demas-->
+                <p class="sub">Ocupación:Actor </p>
+                <p class="sub">Años activo: Desde 2019</p>
+                <p class="sub">Sitio web: <a class="web" href="http://goldmedalist.com/ko/artistView/hyunwook_choi">Medalla de oro</a><!-- el <a href=""></a>  la utilize para vincular un sitio web externo-->
+                </p>
+                <p class="sub">Contacto:<a class="empresa" href="contactus@goldmedalist.com .">contactus@goldmedalist.com .</a></p>
+            </div>
+        </section>
+        <section>
+            <h2>Contacto con Gold mentalist</h2><!--titulo,pero no como el h1-->
+            <form action="" method="post"><!--coloque el form para crear un formulario-->
+                <fieldset><!--contiene el contenido del formulario,parecido al section-->
+                    <legend>Nombre completo</legend><!--lo use para colocar el titulo-->
+                    <div class="opinion">
+                        <label for="Nombre"></label><!--label,no coloque nada,pero se utiliza para relacionar un titulo con los elementos(tipos=text,radio,email,...) del formulario-->
+                        <input type="text" name="Nombre" id="nombre" placeholder="Ingresa tu nombre completo" required><!--placeholder,lo coloque para que lo que se deba hacer aparesca dentro del espacio para completar-->
+                         <!--id,es para identificar el lo que esta el for-required,lo use para obligar al usuario a completar lo que debe-->
+                    </div>
+                    <legend>Correo Electronico</legend>
+                    <div class="opinion">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+                    </div>
+                    <legend>Compañia</legend>
+                    <div class="opinion">
+                        <label for="com"></label>
+                        <input type="text" name="com" id="com" placeholder="compañia" required>
+                    </div>
+                    <legend>Titulo Profecional</legend>
+                    <div class="opinion">
+                        <label for="titulo"></label>
+                        <input type="text" name="titulo" id="titulo" placeholder="Ingrese titulo">
+                    </div>
+                    <legend>¿Cual es tu interes en esta compañia?</legend>
+                    <div class="opinion">
+                        <label for="int"></label>
+                        <input type="text" name="int" id="int" placeholder="cuentanos tu interes" required>
+                    </div>
+                    <legend>Razon por la que nos contactas</legend>
+                    <div class="opinion">
+                        <label for="cont"></label>
+                        <textarea name="cont" id="cont" required></textarea>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="acept" id="acept">
+                        <label for="acept">Acepto recibir comunicaciones de Gold medalist</label>
+
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="acept" id="acept">
+                        <label for="acept">No soy un robot</label>
+
+                    </div>
+
+                    <div class="boton">
+                        <button id="btn-contacto" class="btn">contactar</button>
+                        <button type="submit" id="btn-portafolio" class="btn">portafolio</button>
+                        <!--el button,lo use para crear un boton de enviar-->
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
